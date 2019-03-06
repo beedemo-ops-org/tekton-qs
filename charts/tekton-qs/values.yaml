@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.47.252.4:5000/beedemo-ops-org/tekton-qs
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: tekton-qs
